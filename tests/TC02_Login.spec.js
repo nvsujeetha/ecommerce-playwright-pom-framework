@@ -4,7 +4,7 @@ const {LoginPage} = require('../pages/LoginPage');
 const{MyAccountPage}=require('../pages/MyAccountPage');
 
 
-const dataset=JSON.parse(JSON.stringify(require("../Utils/CloudBerryStoreTestData.json"))); 
+const dataset=JSON.parse(JSON.stringify(require("../utils/CloudBerryStoreTestData.json"))); 
 const users=dataset.Sheet1;
 for (const data of users)//object is created for users
 {
